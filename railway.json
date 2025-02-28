@@ -1,0 +1,14 @@
+{
+    "build": {
+    "builder": "DOCKERFILE"
+    },
+    "deploy": {
+    "startCommand": "v2ray -config=/etc/v2ray/config.json",
+    "ports": [
+        {
+        "port": 80,
+        "protocol": "HTTP"
+        }
+    ]
+    }
+}

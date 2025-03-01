@@ -3,7 +3,7 @@
       "builder": "DOCKERFILE"
     },
     "deploy": {
-      "startCommand": "v2ray run -config=/etc/v2ray/config.json",
+      "startCommand": "sh -c /opt/entrypoint.sh",
       "ports": [
         {
           "port": 80,
